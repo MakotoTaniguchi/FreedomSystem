@@ -1,0 +1,14 @@
+{
+    "databaseAuth":{
+        "user": "",
+        "database": "",
+        "passward": "",
+        "host": "localhost",
+        "port": "3306"
+    },
+    "sesionAuth":{
+        "host": "localhost",
+        "port": "11211"
+    },
+    "cookieHash": ""
+}
