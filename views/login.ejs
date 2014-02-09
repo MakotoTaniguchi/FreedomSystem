@@ -5,12 +5,15 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-    <Form method="post">
+    <Form action="/login" method="POST" enctype="application/x-www-form-urlencoded">
         <div>
-            <div><a>e-mail</a>><input id="email" type="text" /></div>
-            <div><a>passward</a><input id="passward" type="text" /></div>
-            <input type="submit" />
+            <div>e-mail:<input id="email" type="text" name="email"/></div>
+            <div>password:<input id="passward" type="text" name="password" /></div>
+            <input type="submit" name="ログイン" />
         </div>
     </Form>
+    <p><%= title %></p>
+
+    <a href="/user_registration">新規登録</a>
 </body>
 </html>
