@@ -1,3 +1,5 @@
+※新卒時代に作成しました
+
 # FreedomSystem
 
 node.jsとMySqlの連携と環境構築の勉強に作成してみました。
